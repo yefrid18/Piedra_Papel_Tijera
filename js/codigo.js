@@ -42,7 +42,7 @@ let triunfos = 0
 let derrotas = 0
 
 //uso del ciclo while para determinar ganador al obtener 5 victorias
-while (triunfos < 1 && derrotas < 1){
+while (triunfos < 5 && derrotas < 5){
     pc = aleatorio(1,3)      
     jugador = prompt("Elige: 1 Piedra,2 Papel,3 Tijera")
 //eleccion de jugador y pc
